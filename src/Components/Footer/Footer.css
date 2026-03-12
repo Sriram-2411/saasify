@@ -1,0 +1,50 @@
+footer{
+    background-color: rgb(227, 67, 227);
+    padding: 55px 55px;
+    color: white;
+}
+.footerbox{
+    background-color: rgb(94, 94, 213);
+    padding: 35px 20px;
+    margin: 10px;
+    width: 400px;
+}
+.footerbox h2{
+    font-size: 26px;
+    font-weight: 800;
+    padding: 10px;
+    font-style: oblique;
+}
+.footerbox p{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    font-style: oblique;
+}
+.footerbox ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    background-color: rgb(236, 236, 248)  ;
+    margin: 15px 10px;
+}
+.productlist{
+    padding: 50px;
+    background-color: rgb(118, 18, 90);
+}
+.productlist h2{
+    padding: 10px 5px;
+    margin: 15px;
+}
+.listss ul li{
+    background-color: rgb(241, 239, 239);
+    list-style-type: none;
+    padding:2px;
+    margin:5px;
+    width: 45px;
+}
+.listss a{
+    display: block;
+    width: 25px;
+
+}

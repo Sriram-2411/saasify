@@ -1,0 +1,86 @@
+header{
+    background-color: rgb(120, 191, 245);
+    padding: 5px;
+    margin:3px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logomain{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.logomain img{
+    padding: 10px;
+    width:100px;
+}
+.logomain i{
+    font-size: 45px;
+    padding: 25px;
+    
+    
+}
+.logomain .toogle{
+    display: none;
+
+}
+header ul li{
+    list-style-type: none;
+    padding: 15px;
+    display: inline-block;
+    
+
+}
+header ul li:hover a{
+    color: #fff;
+    font-weight: 800;
+}
+header ul li:hover{
+    background-color: rgb(184, 74, 218);
+    transition:all .3s ease-in-out;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 800;
+}
+header .supermenu{
+    position: relative;
+}
+header .submenu{
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    display: none;
+}
+header .submenu li{
+    width: 100px;
+    margin: 5px;
+    background-color: rgb(162, 82, 237);
+}
+header .supermenu:hover .submenu{
+    display: block;
+}
+.btn{
+    background-color: rgb(162, 82, 237);
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 15px 30px;
+}
+
+.bluemenu ul li:hover {
+    background-color: inherit;
+    
+}
+.btn:hover{
+    background-color: rgb(154, 72, 231);
+    transition: all.8s ease-in;
+    font-weight: 800;
+}
